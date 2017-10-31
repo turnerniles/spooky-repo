@@ -1,12 +1,13 @@
-class Ghost(name, scare){
+class Ghost{
   constructor(name, scare){
     this.name = name;
     this.scare = scare;
   }
 
   scareFunction(){
-    console.log('My name is'+this.name+'. '+this.scare)
+    console.log('My name is '+this.name+'. '+this.scare)
   }
 }
 
-scareFunction('casper', 'bring out your dead');
+var ghostman = new Ghost('casper', 'bring out your dead');
+ghostman.scareFunction();
