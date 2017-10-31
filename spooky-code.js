@@ -8,3 +8,5 @@ class Ghost(name, scare){
     console.log('My name is'+this.name+'. '+this.scare)
   }
 }
+
+scareFunction('casper', 'bring out your dead');
